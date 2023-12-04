@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.Navbar-container {
+    padding-right: 30px;
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+    width: 100%;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.Venture-logo {
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    margin-left: 97px;
+}
+
+.navbar-nav {
+    font-size: 20px;
+    margin-right: 50px;
+}
+
+.nav-link:hover {
+    background-color: lightblue;
+    border-radius: 10px;
+}
+
+.banner-section-bg-container {
+    background-image: url("https://i.pinimg.com/564x/c4/51/d5/c451d5e261bb39e7d521a2ef0bbf600e.jpg");
+    background-size: cover;
+    height: 82vh;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 8%;
+}
+
+.heading1 {
+    font-size: 80px;
+    margin-top: 80px;
+}
+
+.content {
+    font-style: italic;
+}
+
+.wrulf-heading {
+    text-align: center;
+    padding-top: 50px;
+    color: rgb(0, 0, 139);
+    font-weight: bold;
+    padding-bottom: 1px;
+}
+
+.wrulf-card-image {
+    height: 150px;
+    width: 150px;
+}
+
+.wrulf-card-title {
+    font-size: 30px;
+}
+
+.wrulf-card {
+    background-color: aliceblue;
+    text-align: center;
+    border-radius: 16px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+}
+
+.project-heading {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(0, 0, 139);
+    padding-top: 50px;
+}
+
+.project-card {
+    padding-top: 10%;
+    text-align: center;
+}
+
+.project-image {
+    height: 200px;
+    width: 300px;
+    border-radius: 5px;
+    padding-bottom: 20px;
+    margin-left: 7px;
+}
+
+.project-image-md {
+    height: 200px;
+    width: 200px;
+    border-radius: 5px;
+    padding-bottom: 20px;
+    margin-left: 7px;
+}
+
+.project-btn {
+    color: rgb(0, 0, 139);
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.project-btn:hover {
+    background: linear-gradient(-225deg, #5271C4 0%, #B19FFF 48%, #ECA1FE 100%);
+    border-radius: 5px;
+}
+
+.project-card:hover {
+    background-color: whitesmoke;
+}
+
+.review-section-bg-container {
+    background-image: url("https://w0.peakpx.com/wallpaper/270/518/HD-wallpaper-the-wall-brick-light-night-outside-thumbnail.jpg");
+    background-size: cover;
+    height: 40vh;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.review-container {
+    font-size: 30px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    padding-top: 30px;
+}
+
+.follow-us-section {
+    text-align: center;
+    background-image: url("https://img.freepik.com/free-photo/top-view-blue-monday-concept-composition-with-telephone_23-2149139103.jpg");
+    background-size: cover;
+}
+
+.follow-heading {
+    font-size: 50px;
+}
+
+.icon {
+    color: rgb(115, 115, 231);
+    height: 40px;
+    width: 40px;
+    margin-right: 30px;
+}
+
+.icon-sm {
+    color: rgb(115, 115, 231);
+    height: 40px;
+    width: 40px;
+
+}
+
+.follow-us-icon {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: transparent;
+    padding-top: 22px;
+    padding-bottom: 14px;
+    padding-right: 16px;
+    padding-left: 22px;
+    margin: 15px;
+}
+
+.follow-us-icon-exsm {
+    width: 80px;
+    height: 80px;
+    border-radius: 60%;
+    background-color: transparent;
+    padding-top: 22px;
+    padding-bottom: 14px;
+    margin: 10px;
+}
+
+.follow-us-icon-exsm:hover {
+    background-color: lightblue;
+}
+
+.follow-us-icon:hover {
+    background-color: lightblue;
+}
+
+.footer-section {
+    background-color: #0d2436;
+}
+
+.footer-section-mail-id {
+    color: #959ead;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.footer-section-contact {
+    color: #959ead;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.footer-section-address {
+    color: #959ead;
+    font-size: 18px;
+    margin-top: 30px;
+    text-decoration: none;
+}
+
+.footer-hedng {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.footer-venture-logo {
+    height: 150px;
+    width: 150px;
+    border-radius: 5px;
+    margin-top: 80px;
+    margin-left: 50px;
+}
+
+.footer-section-info {
+    background-color: #132e43;
+    height: 40px;
+    text-align: center;
+    padding-top: 10px;
+    color: #e4e8e5;
+}
